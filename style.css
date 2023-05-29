@@ -85,6 +85,7 @@ header .menu nav a:hover {
 #welcome .textbox .btn h6:hover {
   background-color: white;
   color: #edd30b;
+  border: 3px solid #edd30b;
 }
 @media screen and (max-width: 768px) {
   #welcome .textbox h1 {
