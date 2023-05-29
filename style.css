@@ -20,7 +20,7 @@ header .menu {
 }
 header .menu .logobox {
   padding: 10px;
-  width: 12%;
+  width: 13%;
   margin: 15px;
 }
 header .menu nav {
@@ -34,9 +34,9 @@ header .menu nav a {
 header .menu nav a:hover {
   color: #eeff03;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
   header .menu nav a {
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 
@@ -77,15 +77,16 @@ header .menu nav a:hover {
   background-color: #edd30b;
   border-radius: 5px;
 }
-@media screen and (max-width: 1066px) {
+@media screen and (max-width: 768px) {
+  #welcome .textbox .textbox h1 {
+    font-size: 30px;
+  }
+  #welcome .textbox .textbox h2 {
+    font-size: 45px;
+  }
   #welcome .textbox .textbox .btn h6 {
     width: 120px;
     font-size: 10px;
-  }
-}
-@media screen and (min-width: 2000px) {
-  #welcome .textbox .textbox .btn h6 {
-    font-size: 25px;
   }
 }
 
