@@ -465,8 +465,15 @@ header .menu nav a:hover {
   #contact .textbox h5 {
     font-size: 15px;
   }
+  #contact .box input {
+    height: 55px;
+  }
+  #contact .bigbox input {
+    height: 206px;
+  }
   #contact .btn h3 {
     font-size: 15px;
+    height: 25px;
   }
 }
 
