@@ -209,6 +209,9 @@ header .menu nav a:hover {
   }
 }
 
+#about {
+  padding: 80px 0;
+}
 #about .uptext {
   padding-top: 30px;
 }
@@ -229,7 +232,6 @@ header .menu nav a:hover {
 #about .bigbox .box {
   display: flex;
   flex-flow: row;
-  margin: 20px;
 }
 #about .bigbox .box .imgbox, #about .bigbox .box .imgboxleft {
   position: absolute;
