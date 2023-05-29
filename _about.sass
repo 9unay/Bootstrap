@@ -22,7 +22,7 @@
                 margin-top: 40px
                 img
                     width: 85%
-                    border: 8px solid #d1cccc
+                    border: 7px solid #d1cccc
                     border-radius: 50%
             .imgboxleft
                 left: 544px
@@ -44,7 +44,7 @@
         margin: 30px -55px
         width: 180px
         height: 180px
-        border: 8px solid #d1cccc
+        border: 7px solid #d1cccc
         border-radius: 50%
         text-align: center
         h6
@@ -53,12 +53,15 @@
             font-weight: 700
             color: #ffff
 
-    @media screen and ( min-width: 1500px )
+    @media screen and ( max-width: 768px )
       .bigbox
         .box
+            .imgbox,.imgboxleft
+                img
+                    width: 55%
             .imgboxleft
-                left: 600px
+                left: 210px
             .imgbox
-                right: 600px
+                right: 340px
 
      

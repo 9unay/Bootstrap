@@ -75,29 +75,22 @@ header .menu nav a:hover {
 }
 #welcome .textbox .btn h6 {
   border: 1px solid #edd30b;
-  width: 200px;
-  height: 70px;
-  font-size: 25px;
+  width: 25%;
+  font-size: 30px;
   padding: 15px;
   color: white;
   background-color: #edd30b;
   border-radius: 5px;
 }
 @media screen and (max-width: 768px) {
-  #welcome .textbox .textbox h1 {
-    font-size: 30px;
+  #welcome .textbox h1 {
+    font-size: 40px;
   }
-  #welcome .textbox .textbox h2 {
-    font-size: 45px;
+  #welcome .textbox h2 {
+    font-size: 65px;
   }
-  #welcome .textbox .textbox .btn h6 {
-    width: 120px;
-    font-size: 10px;
-  }
-}
-@media screen and (min-width: 2000px) {
-  #welcome .textbox .textbox .btn h6 {
-    font-size: 25px;
+  #welcome .textbox .btn h6 {
+    font-size: 18px;
   }
 }
 
@@ -262,7 +255,7 @@ header .menu nav a:hover {
 }
 #about .bigbox .box .imgbox img, #about .bigbox .box .imgboxleft img {
   width: 85%;
-  border: 8px solid #d1cccc;
+  border: 7px solid #d1cccc;
   border-radius: 50%;
 }
 #about .bigbox .box .imgboxleft {
@@ -289,7 +282,7 @@ header .menu nav a:hover {
   margin: 30px -55px;
   width: 180px;
   height: 180px;
-  border: 8px solid #d1cccc;
+  border: 7px solid #d1cccc;
   border-radius: 50%;
   text-align: center;
 }
@@ -299,12 +292,15 @@ header .menu nav a:hover {
   font-weight: 700;
   color: white;
 }
-@media screen and (min-width: 1500px) {
+@media screen and (max-width: 768px) {
+  #about .bigbox .box .imgbox img, #about .bigbox .box .imgboxleft img {
+    width: 55%;
+  }
   #about .bigbox .box .imgboxleft {
-    left: 600px;
+    left: 210px;
   }
   #about .bigbox .box .imgbox {
-    right: 600px;
+    right: 340px;
   }
 }
 
