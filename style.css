@@ -391,23 +391,19 @@ header .menu nav a:hover {
 }
 
 #network {
-  padding: 70px;
+  padding: 40px;
 }
-#network .microsoft {
-  width: 200px;
-  height: 50px;
+#network .imgbox .microsoft {
+  width: 20%;
 }
-#network .google {
-  width: 120px;
-  height: 25px;
+#network .imgbox .google {
+  width: 15%;
 }
-#network .facebook {
-  width: 140px;
-  height: 45px;
+#network .imgbox .facebook {
+  width: 20%;
 }
-#network .ibm {
-  width: 100px;
-  height: 10px;
+#network .imgbox .ibm {
+  width: 15%;
 }
 
 #contact {
