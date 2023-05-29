@@ -39,6 +39,12 @@ header .menu nav a:hover {
     font-size: 13px;
   }
 }
+@media screen and (min-width: 1500px) {
+  header .menu nav a {
+    font-size: 21px;
+    margin: 14px;
+  }
+}
 
 #welcome {
   background-image: url("assets'/header-bg.jpg");
@@ -87,6 +93,11 @@ header .menu nav a:hover {
   #welcome .textbox .textbox .btn h6 {
     width: 120px;
     font-size: 10px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  #welcome .textbox .textbox .btn h6 {
+    font-size: 25px;
   }
 }
 
