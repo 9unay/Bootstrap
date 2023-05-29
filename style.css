@@ -111,6 +111,7 @@ header .menu nav a:hover {
   font-size: 20px;
 }
 #services .box .icon {
+  margin: 20px;
   background-color: #edd30b;
   border-radius: 90px;
   width: 140px;
