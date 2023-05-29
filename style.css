@@ -1,0 +1,469 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+.imgbox {
+  overflow: hidden;
+}
+.imgbox img {
+  width: 100%;
+}
+
+header .menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  padding: 15px 0;
+  background-color: #181818;
+}
+header .menu .logobox {
+  padding: 10px;
+  width: 12%;
+  margin: 15px;
+}
+header .menu nav {
+  padding: 20px;
+}
+header .menu nav a {
+  color: white;
+  margin: 15px;
+  font-size: 20px;
+}
+header .menu nav a:hover {
+  color: #eeff03;
+}
+@media screen and (max-width: 1200px) {
+  header .menu nav a {
+    font-size: 15px;
+  }
+}
+
+#welcome {
+  background-image: url("assets'/header-bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+#welcome .textbox {
+  height: 700px;
+  justify-content: center;
+  align-content: center;
+}
+#welcome .textbox h1 {
+  padding-top: 80px;
+  margin: 70px 0 0;
+  font-size: 60px;
+  color: white;
+}
+#welcome .textbox h2 {
+  margin: 30px 0 70px;
+  font-size: 95px;
+  font-weight: 700;
+  color: white;
+}
+#welcome .textbox .btn {
+  padding-top: 50px;
+}
+#welcome .textbox .btn h6 {
+  border: 1px solid #edd30b;
+  width: 200px;
+  height: 70px;
+  font-size: 25px;
+  padding: 15px;
+  color: white;
+  background-color: #edd30b;
+  border-radius: 5px;
+}
+@media screen and (max-width: 1066px) {
+  #welcome .textbox .textbox .btn h6 {
+    width: 120px;
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  #welcome .textbox .textbox .btn h6 {
+    font-size: 25px;
+  }
+}
+
+#services {
+  padding: 90px;
+}
+#services .begin h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+#services .begin h5 {
+  margin: 20px 0 50px;
+  font-size: 20px;
+}
+#services .box .icon {
+  background-color: #edd30b;
+  border-radius: 80px;
+  width: 140px;
+  height: 130px;
+}
+#services .box .icon i {
+  font-size: 70px;
+  color: white;
+}
+#services .textbox h2 {
+  font-weight: 700;
+  margin: 25px 0 30px;
+  font-size: 25px;
+}
+#services .textbox p {
+  font-size: 18px;
+  color: rgba(39, 38, 38, 0.7764705882);
+  line-height: 1.5;
+}
+@media screen and (max-width: 992px) {
+  #services .textbox .begin h1 {
+    font-size: 35px;
+  }
+  #services .textbox .begin h5 {
+    font-size: 17px;
+  }
+  #services .textbox .icon {
+    margin: 0px 90px;
+    width: 120px;
+    height: 110px;
+  }
+  #services .textbox .icon i {
+    font-size: 60px;
+  }
+  #services .textbox .textbox h2 {
+    font-size: 20px;
+  }
+  #services .textbox .textbox p {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  #services .textbox .begin h1 {
+    font-size: 50px;
+  }
+  #services .textbox .begin h5 {
+    font-size: 30px;
+  }
+  #services .textbox .icon {
+    margin: 15px 110px;
+    width: 150px;
+    height: 140px;
+  }
+  #services .textbox .icon i {
+    font-size: 80px;
+  }
+  #services .textbox .textbox h2 {
+    font-size: 35px;
+  }
+  #services .textbox .textbox p {
+    font-size: 28px;
+  }
+}
+
+#portfolio {
+  background-color: rgba(0, 0, 0, 0);
+}
+#portfolio .textbox {
+  padding-top: 30px;
+}
+#portfolio .textbox h1 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+#portfolio .textbox h4 {
+  color: #b2b4b7;
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+#portfolio .textbox h2 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.2;
+}
+#portfolio .textbox h3 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-style: italic;
+  color: #949598;
+}
+#portfolio .box {
+  position: relative;
+}
+#portfolio .box .imgbox {
+  width: 100%;
+}
+#portfolio .box .imgbox:hover {
+  opacity: 0.1;
+}
+#portfolio .box .icon {
+  height: 76%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  background-color: #fbff08;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#portfolio .box .icon:hover {
+  color: white;
+  cursor: pointer;
+  font-size: 50px;
+  opacity: 0.9;
+}
+
+#about {
+  padding: 90px 0;
+}
+#about .uptext {
+  padding-top: 30px;
+}
+#about .uptext h1 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+#about .uptext h4 {
+  color: #b2b4b7;
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+#about .bigbox {
+  display: flex;
+  flex-flow: column;
+}
+#about .bigbox .box {
+  display: flex;
+  flex-flow: row;
+  margin: 20px;
+}
+#about .bigbox .box .imgbox, #about .bigbox .box .imgboxleft {
+  position: absolute;
+  margin-top: 40px;
+}
+#about .bigbox .box .imgbox img, #about .bigbox .box .imgboxleft img {
+  border: 8px solid #d1cccc;
+  border-radius: 50%;
+}
+#about .bigbox .box .imgboxleft {
+  left: 850px;
+}
+#about .bigbox .box .imgbox {
+  right: 850px;
+}
+#about .bigbox .box .textbox {
+  padding: 30px 0;
+  margin: 1px 80px;
+  width: 28%;
+  line-height: 1.5;
+  font-size: 20px;
+  color: rgba(39, 38, 38, 0.7764705882);
+}
+#about .bigbox .box .textbox h1, #about .bigbox .box .textbox h2 {
+  font-weight: 700;
+  font-size: 25px;
+  color: #000;
+}
+#about .minibox {
+  background-color: #f7ef14;
+  margin: 30px -55px;
+  width: 200px;
+  height: 200px;
+  border: 8px solid #d1cccc;
+  border-radius: 50%;
+}
+#about .minibox h6 {
+  margin: 50px;
+  font-size: 29px;
+  font-weight: 700;
+  color: white;
+}
+@media screen and (max-width: 1500px) {
+  #about .bigbox .box .imgboxleft {
+    left: 600px;
+  }
+  #about .bigbox .box .imgbox {
+    right: 600px;
+  }
+}
+
+#team {
+  background-color: #faf9f9;
+  padding: 80px;
+}
+#team p {
+  padding: 40px 0;
+  width: 750px;
+  font-size: 18px;
+  color: rgba(86, 85, 85, 0.7764705882);
+  line-height: 1.3;
+}
+#team .upbox h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+#team .upbox h4 {
+  margin: 20px 0 50px;
+  font-size: 18px;
+}
+#team .box .imgbox {
+  width: 75%;
+  margin-left: 50px;
+}
+#team .box .imgbox img {
+  border: 8px solid #d1cccc;
+  border-radius: 50%;
+}
+#team .box .textbox h2 {
+  margin: 25px 0 30px;
+  font-size: 25px;
+  font-weight: 700;
+}
+#team .box .textbox h5 {
+  font-size: 18px;
+  color: rgba(86, 85, 85, 0.7764705882);
+}
+#team .box .btn .icon {
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  color: white;
+  background-color: #000;
+  margin: 10px;
+  border-radius: 50%;
+  padding: 5px;
+}
+@media screen and (max-width: 1200px) {
+  #team p {
+    padding: 35px 0;
+    font-size: 15px;
+  }
+  #team .box .textbox h2 {
+    margin: 20px 0 25px;
+    font-size: 20px;
+  }
+  #team .box .textbox h5 {
+    font-size: 15px;
+  }
+  #team .box .btn .icon {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+  #team .upbox h1 {
+    font-size: 30px;
+  }
+  #team .upbox h4 {
+    font-size: 15px;
+  }
+}
+
+#network {
+  padding: 70px;
+}
+#network .microsoft {
+  width: 200px;
+  height: 50px;
+}
+#network .google {
+  width: 120px;
+  height: 25px;
+}
+#network .facebook {
+  width: 140px;
+  height: 45px;
+}
+#network .ibm {
+  width: 100px;
+  height: 10px;
+}
+
+#contact {
+  background-image: url("assets'/map-image.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #232222;
+  height: 700px;
+  padding: 80px 0;
+}
+#contact .textbox {
+  margin: 30px;
+  color: white;
+  width: 100%;
+}
+#contact .textbox h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+}
+#contact .textbox h5 {
+  margin: 20px 0 50px;
+  font-size: 18px;
+}
+#contact .box input {
+  margin: 10px;
+  height: 65px;
+  width: 100%;
+}
+#contact .bigbox input {
+  margin: 10px;
+  height: 236px;
+  width: 100%;
+}
+#contact .btn button {
+  border: 1px solid #edd30b;
+  width: 230px;
+  height: 70px;
+  font-size: 20px;
+  color: white;
+  background-color: #edd30b;
+  border-radius: 5px;
+  opacity: 0.7;
+  margin: 30px 0;
+}
+
+footer .textbox, footer .texts {
+  padding: 20px;
+  font-size: 18px;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+footer ul li .icon {
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #1a1919;
+  color: white;
+  margin: 0 12px;
+  border-radius: 30px;
+}
+footer ul li .icon:hover {
+  border: 3px solid #fdf7f7;
+  border-radius: 20px;
+}
+@media screen and (max-width: 1030px) {
+  footer .textbox, footer .texts {
+    font-size: 16px;
+  }
+  footer ul li .icon {
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+  }
+}/*# sourceMappingURL=style.css.map */
